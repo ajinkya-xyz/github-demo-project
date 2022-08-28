@@ -1,0 +1,38 @@
+Git 
+Commands :
+	1. git init - Initialize new git project
+	2. Git status - check status of files
+	3. Git add <filename>/. - to add file to staging area
+	4. Git commit - To commit the files
+	5. Git log - see history 
+	6. Git revert commit-id - To revert a commit
+	7. Git clone - to download the remote repo
+
+
+Idea . - open current director in IntelliJ
+code . - open current director in VS Code
+
+@Swathi Sridhar
+
+This is a small doc for quick lookup of commonly used git commands that i made for myself for work related stuff. Sharing on this forum hoping it helps:
+1. To add new files to the git repository : git add <file_name>
+2. To commit or to update changes to an existing file : git commit -m "<commit_message>" <file_name>
+3. To upload all local branch commits to github : git push <origin> <master>
+4. To download a repository that already exists on github : git clone <git_clone_URL>
+5. To change the user name and email id that is displayed during a commit
+change it in : git config --global -e and save the changes there
+6. Branches are an important part of git and any changes/commits you make will be made
+to the branch your currently checked out to.
+7. To check which branch your currently checked out to : git status and check what all files you have not committed.
+8. To create a new branch : git branch <branch_name>
+9. To switch to a specified branch and update the current working directory: git checkout <branch_name>
+10.To download the history from all remote tracking branches: git fetch
+11.To merge the changes 
+
+
+Testing 
+
+https://martinfowler.com/articles/practical-test-pyramid.html
+
+LinkedIn https://www.linkedin.com/in/ajinkyaparakh/
+
